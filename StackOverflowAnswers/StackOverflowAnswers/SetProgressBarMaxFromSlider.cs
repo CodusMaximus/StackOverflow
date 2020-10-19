@@ -14,8 +14,9 @@ namespace StackOverflowAnswers {
             var progressBar = new ProgressBar();
 
             slider.ValueChanged += (s, e) => {
-                progressBar.Maximum = (slider.Value + 60)
+                progressBar.Maximum = (slider.Value + 60);
             };
+
 
         }
     }
